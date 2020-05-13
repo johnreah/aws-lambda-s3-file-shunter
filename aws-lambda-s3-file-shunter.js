@@ -40,8 +40,8 @@ var mappings = [
         emailsToNotify: ['john.reah+aws@johnreah.com']
     },
     {
-		// Example incoming file: customer_name/incoming/PRODUCTS_WEEKLY_20180703
-		// Destination after move: johnreah-bucket02/products/ready/PRODUCTS_WEEKLY_20180703
+        // Example incoming file: customer_name/incoming/PRODUCTS_WEEKLY_20180703
+        // Destination after move: johnreah-bucket02/products/ready/PRODUCTS_WEEKLY_20180703
         name: "Products mapping",
         sourcePattern: /(customer_name\/incoming\/)(PRODUCTS_WEEKLY)(.*)/,
         destinationBucket: "johnreah-bucket02",
